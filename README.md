@@ -1,3 +1,3 @@
-# r-statistical
+# r-statistical for spatial analisys 
 
-Miscelaneous
+Misc
