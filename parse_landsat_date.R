@@ -1,3 +1,4 @@
+# Dhemerson Conciani (dh.conciani@gmail.com)
 # Retrieve date from landsat .tif filenames and use as string 
 # INPUT:  Path with raster files
 # OUTPUT: Object string
