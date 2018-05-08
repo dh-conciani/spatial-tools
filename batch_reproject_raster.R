@@ -27,5 +27,5 @@ for (i in 1:list_count) {
   #perform reprojection
   projected_raster <- projectRaster(r, crs = ref_proj)
   #write each reprojected raster to a new file 
-  writeRaster(projected_raster, paste0 ('H:/~~/',raster_list[i],'.tif'), overwrite=TRUE)
+  writeRaster(projected_raster, paste0 ('H:/~~/',list_names[i],'.tif'), overwrite=TRUE)
 }
