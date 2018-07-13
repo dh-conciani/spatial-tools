@@ -30,7 +30,7 @@ row   = sapply(substr(filenames, start=14, stop=16), function(x) x)
 ## Compute lenght to batch process
 list_count <- length (Blue)
 
-## Process "OLI COMPOSITE BANDS" algorithm
+## Process "TM COMPOSITE BANDS" algorithm
 for (i in 1:list_count) {
   #read bands
   r_blue <- raster (Blue[[i]])
